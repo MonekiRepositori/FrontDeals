@@ -1,0 +1,23 @@
+@keyframes lds-facebook {
+  0% {
+    top: 2px;
+    height: 64px;
+  }
+  50%,
+  100% {
+    top: 6px;
+    height: 32px;
+  }
+}
+.animate-facebook-delay1 {
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: -0.24s;
+}
+.animate-facebook-delay2 {
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: -0.12s;
+}
+.animate-facebook-delay3 {
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: 0s;
+}
