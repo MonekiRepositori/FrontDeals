@@ -1,5 +1,5 @@
 const urlServices =
-process.env.REACT_APP_ENV === 'DEVP'
+process.env.REACT_APP_ENV === 'DEV'
     ? process.env.REACT_APP_API_URL_DEV
     : process.env.REACT_APP_API_URL_PROD
     
